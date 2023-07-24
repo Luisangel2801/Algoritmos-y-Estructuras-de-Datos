@@ -7,6 +7,8 @@
 
 #include <iostream>
 
+#include <iostream>
+
 int main() {
     int n,m;
     std::cin >> n >> m;
@@ -17,16 +19,15 @@ int main() {
     }
 
     int sum = 0;
-    int temp;
     
     for (int i = 0; i < m; ++i) {
+		int temp;
         std::cin >> temp;
         sum += temp;
     }
 
     for (int i = 0; i < n; ++i) {
-        arr[i] += sum;
-        std::cout << arr[i] << " ";
+        std::cout << (arr[i] += sum) << " ";
     }
 
     return 0;
