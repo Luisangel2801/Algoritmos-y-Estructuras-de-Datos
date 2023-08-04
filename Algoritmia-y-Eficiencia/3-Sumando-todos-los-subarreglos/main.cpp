@@ -3,6 +3,7 @@
  *  https://omegaup.com/arena/problem/Sumando-todos-los-subarreglos
  *  Luis Angel Cruz Diaz
  */
+
 #include <iostream>
 
 int main(){
